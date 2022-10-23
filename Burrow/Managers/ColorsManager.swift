@@ -9,7 +9,9 @@ import UIKit
 
 final class ColorsManager{
     static let shared = ColorsManager()
-    let viewBackgroudColor: UIColor = .systemBackground
+    let viewBackgroudColor = UIColor(named: "viewBackgroudColor") ?? .systemBackground
+    let primaryFontColor = UIColor(named: "primaryFontColor")
+    let secencoryFontColor = UIColor(named: "secencoryFontColor")
     
     private init(){}
 }

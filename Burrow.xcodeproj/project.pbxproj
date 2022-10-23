@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73B27AE028FC654A00ACB352 /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B27ADF28FC654A00ACB352 /* UITextField+.swift */; };
+		73B27AE228FC6A0700ACB352 /* UIBurrowTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B27AE128FC6A0700ACB352 /* UIBurrowTextField.swift */; };
 		73C982DF28FC026000C462B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C982DE28FC026000C462B8 /* AppDelegate.swift */; };
 		73C982E128FC026000C462B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C982E028FC026000C462B8 /* SceneDelegate.swift */; };
 		73C982E828FC026100C462B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C982E728FC026100C462B8 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73B27ADF28FC654A00ACB352 /* UITextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
+		73B27AE128FC6A0700ACB352 /* UIBurrowTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBurrowTextField.swift; sourceTree = "<group>"; };
 		73C982DB28FC026000C462B8 /* Burrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Burrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73C982DE28FC026000C462B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73C982E028FC026000C462B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73B27ADE28FC652D00ACB352 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				73B27ADF28FC654A00ACB352 /* UITextField+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		73C982D228FC026000C462B8 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +72,7 @@
 		73C982DD28FC026000C462B8 /* Burrow */ = {
 			isa = PBXGroup;
 			children = (
+				73B27ADE28FC652D00ACB352 /* Extensions */,
 				73C982F728FC02B700C462B8 /* Resources */,
 				73C982F628FC02AF00C462B8 /* Managers */,
 				73C982F528FC02AA00C462B8 /* Models */,
@@ -91,6 +104,7 @@
 		73C982F428FC02A400C462B8 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				73B27AE128FC6A0700ACB352 /* UIBurrowTextField.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -227,8 +241,10 @@
 				73C982FE28FC04A700C462B8 /* EnterPhoneNumberViewController.swift in Sources */,
 				73C982DF28FC026000C462B8 /* AppDelegate.swift in Sources */,
 				73C9830328FC084500C462B8 /* ColorsManager.swift in Sources */,
+				73B27AE028FC654A00ACB352 /* UITextField+.swift in Sources */,
 				73C9830128FC05AB00C462B8 /* ViewManager.swift in Sources */,
 				73C982E128FC026000C462B8 /* SceneDelegate.swift in Sources */,
+				73B27AE228FC6A0700ACB352 /* UIBurrowTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
